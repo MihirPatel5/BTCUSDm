@@ -1,0 +1,105 @@
+# BTCUSD Forex Prediction Model Configuration
+
+# Data Collection Settings
+data:
+  symbol: "BTCUSD"
+  timeframe: "5min"
+  historical_years: 3
+  prediction_horizon_minutes: 15  # Can be 15, 20, 25, or 30
+  
+  # Data Sources (in order of preference)
+  sources:
+    primary: "mt5"  # MetaTrader 5
+    alternatives: ["yfinance", "alpha_vantage", "binance"]
+  
+  # Data Quality
+  outlier_threshold: 4  # Standard deviations
+  max_gap_minutes: 30   # Maximum gap to forward fill
+
+# Feature Engineering
+features:
+  technical_indicators:
+    sma_periods: [5, 10, 20, 50, 100, 200]
+    ema_periods: [5, 10, 20, 50]
+    rsi_period: 14
+    macd: [12, 26, 9]
+    bollinger_bands: [20, 2]
+    stochastic: [14, 3, 3]
+    adx_period: 14
+    williams_r_period: 14
+  
+  statistical_features:
+    volatility_periods: [5, 10, 20]
+    rolling_stats: true
+    autocorr_lags: [1, 2, 3, 5, 10]
+  
+  time_features:
+    hour_of_day: true
+    day_of_week: true
+    trading_sessions: true
+
+# Model Configuration
+models:
+  baseline: "xgboost"
+  advanced: ["lstm", "ensemble"]
+  
+  xgboost:
+    n_estimators: 200
+    max_depth: 6
+    learning_rate: 0.1
+    subsample: 0.8
+    colsample_bytree: 0.8
+    random_state: 42
+  
+  lstm:
+    sequence_length: 60
+    hidden_units: [50, 50, 50]
+    dropout_rate: 0.2
+    batch_size: 32
+    epochs: 100
+
+# Training Configuration
+training:
+  test_size: 0.15
+  validation_size: 0.15
+  cv_folds: 5
+  random_state: 42
+  
+  # Time-based splitting
+  time_based_split: true
+  walk_forward: true
+  retrain_frequency: "monthly"
+
+# Evaluation Metrics
+evaluation:
+  classification_metrics: ["accuracy", "precision", "recall", "f1", "roc_auc"]
+  financial_metrics: ["sharpe_ratio", "max_drawdown", "win_rate", "profit_factor"]
+  
+  # Success Thresholds
+  target_accuracy: 0.55
+  target_sharpe: 1.5
+  max_drawdown_limit: 0.15
+
+# Risk Management
+risk:
+  max_risk_per_trade: 0.02  # 2% of account
+  max_drawdown: 0.20        # 20% maximum drawdown
+  position_sizing: "kelly"   # or "fixed", "volatility"
+  
+# Backtesting
+backtesting:
+  initial_capital: 10000
+  spread: 0.0001  # 1 pip for BTCUSD
+  commission: 0.0001
+  slippage: 0.0001
+
+# API Keys (set via environment variables)
+api_keys:
+  alpha_vantage: ${ALPHA_VANTAGE_API_KEY}
+  binance: ${BINANCE_API_KEY}
+  binance_secret: ${BINANCE_SECRET_KEY}
+
+# Logging
+logging:
+  level: "INFO"
+  file: "logs/forex_prediction.log"
