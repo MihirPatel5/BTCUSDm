@@ -1,0 +1,47 @@
+# Data Sources Configuration for BTCUSD Collection
+
+# MetaTrader 5 Configuration
+mt5:
+  enabled: true
+  symbol: "BTCUSD"
+  timeframe: "TIMEFRAME_M5"  # 5-minute candles
+  server: "Exness-MT5Real"   # Update with your broker
+  login: null                # Set via environment variable
+  password: null             # Set via environment variable
+  
+# Yahoo Finance (Free Alternative)
+yfinance:
+  enabled: true
+  symbol: "BTC-USD"
+  interval: "5m"
+  period: "3y"
+  
+# Alpha Vantage (Free tier: 5 calls/min, 500 calls/day)
+alpha_vantage:
+  enabled: true
+  symbol: "BTC"
+  market: "USD"
+  function: "FX_INTRADAY"
+  interval: "5min"
+  outputsize: "full"
+  api_key: null  # Set via environment variable
+  
+# Binance API (Free)
+binance:
+  enabled: true
+  symbol: "BTCUSDT"  # Closest to BTCUSD
+  interval: "5m"
+  limit: 1000  # Max candles per request
+  
+# Data Collection Schedule
+collection:
+  batch_size: 1000
+  rate_limit_delay: 1  # seconds between requests
+  retry_attempts: 3
+  timeout: 30
+  
+# Data Validation Rules
+validation:
+  price_change_threshold: 0.1  # 10% max price change per candle
+  volume_threshold: 0         # Minimum volume required
+  required_fields: ["open", "high", "low", "close", "volume", "timestamp"]
