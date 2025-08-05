@@ -43,8 +43,8 @@ class BinanceCollector:
         
         self.last_call_time = time.time()
     
-    def collect_historical_data(self) -> Optional[pd.DataFrame]:
-        """Collect 3 years of historical BTC/USDT data"""
+    def collect_historical_data(self, years: int = 3) -> Optional[pd.DataFrame]:
+        """Collect historical BTC/USDT data for specified years"""
         
         try:
             self.logger.info(f"Collecting {self.symbol} data from Binance")

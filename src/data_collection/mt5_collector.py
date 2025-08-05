@@ -36,16 +36,16 @@ class MT5Collector:
             self.logger.error(f"Error initializing MT5: {e}")
             return False
     
-    def collect_historical_data(self) -> Optional[pd.DataFrame]:
-        """Collect 3 years of historical BTCUSD data"""
+    def collect_historical_data(self, years: int = 3) -> Optional[pd.DataFrame]:
+        """Collect historical BTCUSD data for specified years"""
         
         if not self.initialize_mt5():
             return None
         
         try:
-            # Calculate date range (3 years)
+            # Calculate date range
             end_date = datetime.now()
-            start_date = end_date - timedelta(days=365 * 3)
+            start_date = end_date - timedelta(days=365 * years)
             
             self.logger.info(f"Collecting {self.symbol} data from {start_date} to {end_date}")
             

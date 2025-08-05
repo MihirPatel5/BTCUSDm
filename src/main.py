@@ -11,6 +11,26 @@ import json
 import sys
 from datetime import datetime
 
+# Import all pipeline modules
+from data_collection.data_collector import DataCollector
+from data_preprocessing.data_preprocessor import DataPreprocessor
+from feature_engineering.technical_indicators import TechnicalIndicators
+from feature_engineering.statistical_features import StatisticalFeatures
+from feature_engineering.time_features import TimeFeatures
+from feature_engineering.advanced_features import AdvancedFeatures
+from feature_engineering.feature_selector import FeatureSelector
+from target_definition.target_creator import TargetCreator
+from training.training_strategy import TrainingStrategy
+from training.advanced_training import AdvancedTrainingStrategy
+from models.xgboost_model import XGBoostModel
+from models.lstm_model import LSTMModel
+from models.ensemble_model import EnsembleModel
+from tuning.hyperparameter_tuner import HyperparameterTuner
+from deployment.deployer import Deployer
+from monitoring.monitor import Monitor
+from continuous_improvement.model_updater import ModelUpdater
+from advanced_techniques.advanced_analyzer import AdvancedAnalyzer
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,

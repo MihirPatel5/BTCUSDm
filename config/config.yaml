@@ -37,6 +37,15 @@ features:
     hour_of_day: true
     day_of_week: true
     trading_sessions: true
+  
+  # Advanced Features (Phase 13)
+  advanced_features:
+    volatility_regimes: true
+    momentum_divergence: true
+    support_resistance: true
+    order_flow_approximation: true
+    fractal_patterns: true
+    regime_detection_window: 20
 
 # Model Configuration
 models:
@@ -69,6 +78,13 @@ training:
   time_based_split: true
   walk_forward: true
   retrain_frequency: "monthly"
+  
+  # Advanced Training (Phase 13)
+  advanced_training:
+    enable_ensemble: true
+    ensemble_models: ["xgboost", "lightgbm", "random_forest", "gradient_boosting", "svm"]
+    validation_types: ["standard", "expanding"]
+    class_imbalance_method: "smote"  # options: "smote", "undersample", "oversample", "none"
 
 # Evaluation Metrics
 evaluation:

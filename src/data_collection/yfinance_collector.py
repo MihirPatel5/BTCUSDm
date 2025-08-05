@@ -21,8 +21,8 @@ class YFinanceCollector:
         self.data_dir = Path("data/raw/yfinance")
         self.data_dir.mkdir(parents=True, exist_ok=True)
         
-    def collect_historical_data(self) -> Optional[pd.DataFrame]:
-        """Collect 3 years of historical BTC-USD data"""
+    def collect_historical_data(self, period: str = "3y") -> Optional[pd.DataFrame]:
+        """Collect historical BTC-USD data for specified period"""
         
         try:
             self.logger.info(f"Collecting {self.symbol} data from Yahoo Finance")

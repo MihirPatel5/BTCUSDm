@@ -1,0 +1,774 @@
+2025-08-05 22:58:16,483 - INFO - ============================================================
+2025-08-05 22:58:16,483 - INFO - BTCUSD FOREX DATA DOWNLOAD STARTED
+2025-08-05 22:58:16,483 - INFO - ============================================================
+2025-08-05 22:58:17,407 - INFO - NumExpr defaulting to 4 threads.
+2025-08-05 22:58:19,573 - INFO - Initializing DataCollector...
+2025-08-05 22:58:19,573 - INFO - Data Collector Info: {'primary_source': 'mt5', 'alternative_sources': ['yfinance', 'alpha_vantage', 'binance'], 'available_collectors': ['mt5', 'yfinance', 'alpha_vantage', 'binance'], 'data_directory': 'data\\raw'}
+2025-08-05 22:58:19,573 - INFO - Starting historical data download for 3 years...
+2025-08-05 22:58:19,573 - INFO - Starting historical data collection for 3 years
+2025-08-05 22:58:19,581 - ERROR - Error with mt5 collector: MT5Collector.collect_historical_data() got an unexpected keyword argument 'years'
+2025-08-05 22:58:19,581 - INFO - Trying alternative source: yfinance
+2025-08-05 22:58:19,581 - ERROR - Error with yfinance collector: YFinanceCollector.collect_historical_data() got an unexpected keyword argument 'period'
+2025-08-05 22:58:19,583 - INFO - Trying alternative source: alpha_vantage
+2025-08-05 22:58:19,583 - ERROR - Alpha Vantage API key not found. Set ALPHA_VANTAGE_API_KEY environment variable.
+2025-08-05 22:58:19,584 - INFO - Trying alternative source: binance
+2025-08-05 22:58:19,586 - ERROR - Error with binance collector: BinanceCollector.collect_historical_data() got an unexpected keyword argument 'years'
+2025-08-05 22:58:19,587 - ERROR - All data sources failed
+2025-08-05 22:58:19,588 - ERROR - Failed to download historical data
+2025-08-05 22:58:19,589 - ERROR - Please check:
+2025-08-05 22:58:19,592 - ERROR - 1. MetaTrader 5 is running and logged in
+2025-08-05 22:58:19,592 - ERROR - 2. BTCUSD symbol is available in your broker
+2025-08-05 22:58:19,593 - ERROR - 3. Internet connection is stable
+2025-08-05 23:01:49,671 - INFO - ============================================================
+2025-08-05 23:01:49,671 - INFO - BTCUSD FOREX DATA DOWNLOAD STARTED
+2025-08-05 23:01:49,671 - INFO - ============================================================
+2025-08-05 23:01:50,121 - INFO - NumExpr defaulting to 4 threads.
+2025-08-05 23:01:51,354 - INFO - Initializing DataCollector...
+2025-08-05 23:01:51,357 - INFO - Data Collector Info: {'primary_source': 'mt5', 'alternative_sources': ['yfinance', 'alpha_vantage', 'binance'], 'available_collectors': ['mt5', 'yfinance', 'alpha_vantage', 'binance'], 'data_directory': 'data\\raw'}
+2025-08-05 23:01:51,357 - INFO - Starting historical data download for 3 years...
+2025-08-05 23:01:51,357 - INFO - Starting historical data collection for 3 years
+2025-08-05 23:01:51,357 - ERROR - Error with mt5 collector: MT5Collector.collect_historical_data() got an unexpected keyword argument 'years'
+2025-08-05 23:01:51,357 - INFO - Trying alternative source: yfinance
+2025-08-05 23:01:51,357 - ERROR - Error with yfinance collector: YFinanceCollector.collect_historical_data() got an unexpected keyword argument 'period'
+2025-08-05 23:01:51,357 - INFO - Trying alternative source: alpha_vantage
+2025-08-05 23:01:51,357 - ERROR - Alpha Vantage API key not found. Set ALPHA_VANTAGE_API_KEY environment variable.
+2025-08-05 23:01:51,357 - INFO - Trying alternative source: binance
+2025-08-05 23:01:51,363 - ERROR - Error with binance collector: BinanceCollector.collect_historical_data() got an unexpected keyword argument 'years'
+2025-08-05 23:01:51,365 - ERROR - All data sources failed
+2025-08-05 23:01:51,365 - ERROR - Failed to download historical data
+2025-08-05 23:01:51,366 - ERROR - Please check:
+2025-08-05 23:01:51,368 - ERROR - 1. MetaTrader 5 is running and logged in
+2025-08-05 23:01:51,369 - ERROR - 2. BTCUSD symbol is available in your broker
+2025-08-05 23:01:51,369 - ERROR - 3. Internet connection is stable
+2025-08-05 23:17:54,021 - INFO - ============================================================
+2025-08-05 23:17:54,024 - INFO - BTCUSD FOREX DATA DOWNLOAD STARTED
+2025-08-05 23:17:54,024 - INFO - ============================================================
+2025-08-05 23:17:58,174 - INFO - NumExpr defaulting to 4 threads.
+2025-08-05 23:18:05,513 - INFO - Initializing DataCollector...
+2025-08-05 23:18:05,520 - INFO - Data Collector Info: {'primary_source': 'mt5', 'alternative_sources': ['yfinance', 'alpha_vantage', 'binance'], 'available_collectors': ['mt5', 'yfinance', 'alpha_vantage', 'binance'], 'data_directory': 'data\\raw'}
+2025-08-05 23:18:05,520 - INFO - Starting historical data download for 3 years...
+2025-08-05 23:18:05,520 - INFO - Starting historical data collection for 3 years
+2025-08-05 23:18:05,520 - ERROR - Error with mt5 collector: MT5Collector.collect_historical_data() got an unexpected keyword argument 'years'
+2025-08-05 23:18:05,520 - INFO - Trying alternative source: yfinance
+2025-08-05 23:18:05,520 - ERROR - Error with yfinance collector: YFinanceCollector.collect_historical_data() got an unexpected keyword argument 'period'
+2025-08-05 23:18:05,520 - INFO - Trying alternative source: alpha_vantage
+2025-08-05 23:18:05,524 - ERROR - Alpha Vantage API key not found. Set ALPHA_VANTAGE_API_KEY environment variable.
+2025-08-05 23:18:05,524 - INFO - Trying alternative source: binance
+2025-08-05 23:18:05,524 - ERROR - Error with binance collector: BinanceCollector.collect_historical_data() got an unexpected keyword argument 'years'
+2025-08-05 23:18:05,524 - ERROR - All data sources failed
+2025-08-05 23:18:05,524 - ERROR - Failed to download historical data
+2025-08-05 23:18:05,526 - ERROR - Please check:
+2025-08-05 23:18:05,526 - ERROR - 1. MetaTrader 5 is running and logged in
+2025-08-05 23:18:05,527 - ERROR - 2. BTCUSD symbol is available in your broker
+2025-08-05 23:18:05,527 - ERROR - 3. Internet connection is stable
+2025-08-05 23:19:58,933 - INFO - ============================================================
+2025-08-05 23:19:58,933 - INFO - BTCUSD FOREX DATA DOWNLOAD STARTED
+2025-08-05 23:19:58,940 - INFO - ============================================================
+2025-08-05 23:19:59,331 - INFO - NumExpr defaulting to 4 threads.
+2025-08-05 23:20:02,211 - INFO - Initializing DataCollector...
+2025-08-05 23:20:02,223 - INFO - Data Collector Info: {'primary_source': 'mt5', 'alternative_sources': ['yfinance', 'alpha_vantage', 'binance'], 'available_collectors': ['mt5', 'yfinance', 'alpha_vantage', 'binance'], 'data_directory': 'data\\raw'}
+2025-08-05 23:20:02,237 - INFO - Starting historical data download for 3 years...
+2025-08-05 23:20:02,244 - INFO - Starting historical data collection for 3 years
+2025-08-05 23:20:02,292 - INFO - MT5 initialized successfully
+2025-08-05 23:20:02,302 - INFO - MT5 version: (500, 4885, '28 Feb 2025')
+2025-08-05 23:20:02,313 - INFO - Collecting BTCUSD data from 2022-08-06 23:20:02.313196 to 2025-08-05 23:20:02.313196
+2025-08-05 23:20:02,330 - ERROR - No data received for BTCUSD
+2025-08-05 23:20:02,361 - INFO - Trying alternative source: yfinance
+2025-08-05 23:20:02,361 - INFO - Collecting BTC-USD data from Yahoo Finance
+2025-08-05 23:20:02,374 - INFO - Collecting chunk: 2025-06-06 23:20:02.373783 to 2025-08-05 23:20:02.373783
+2025-08-05 23:20:06,358 - INFO - Collecting chunk: 2025-04-07 23:20:02.373783 to 2025-06-06 23:20:02.373783
+2025-08-05 23:20:07,564 - ERROR - $BTC-USD: possibly delisted; no price data found  (5m 2025-04-07 23:20:02.373783 -> 2025-06-06 23:20:02.373783) (Yahoo error = "5m data not available for startTime=1744068002 and endTime=1749252002. The requested range must be within the last 60 days.")
+2025-08-05 23:20:07,566 - INFO - Collecting chunk: 2025-02-06 23:20:02.373783 to 2025-04-07 23:20:02.373783
+2025-08-05 23:20:08,392 - ERROR - $BTC-USD: possibly delisted; no price data found  (5m 2025-02-06 23:20:02.373783 -> 2025-04-07 23:20:02.373783) (Yahoo error = "5m data not available for startTime=1738884002 and endTime=1744068002. The requested range must be within the last 60 days.")
+2025-08-05 23:20:08,433 - INFO - Collecting chunk: 2024-12-08 23:20:02.373783 to 2025-02-06 23:20:02.373783
+2025-08-05 23:20:09,869 - ERROR - $BTC-USD: possibly delisted; no price data found  (5m 2024-12-08 23:20:02.373783 -> 2025-02-06 23:20:02.373783) (Yahoo error = "5m data not available for startTime=1733700002 and endTime=1738884002. The requested range must be within the last 60 days.")
+2025-08-05 23:20:09,870 - INFO - Collecting chunk: 2024-10-09 23:20:02.373783 to 2024-12-08 23:20:02.373783
+2025-08-05 23:20:10,693 - ERROR - $BTC-USD: possibly delisted; no price data found  (5m 2024-10-09 23:20:02.373783 -> 2024-12-08 23:20:02.373783) (Yahoo error = "5m data not available for startTime=1728516002 and endTime=1733700002. The requested range must be within the last 60 days.")
+2025-08-05 23:20:10,706 - INFO - Collecting chunk: 2024-08-10 23:20:02.373783 to 2024-10-09 23:20:02.373783
+2025-08-05 23:20:11,711 - ERROR - $BTC-USD: possibly delisted; no price data found  (5m 2024-08-10 23:20:02.373783 -> 2024-10-09 23:20:02.373783) (Yahoo error = "5m data not available for startTime=1723332002 and endTime=1728516002. The requested range must be within the last 60 days.")
+2025-08-05 23:20:11,712 - INFO - Collecting chunk: 2024-06-11 23:20:02.373783 to 2024-08-10 23:20:02.373783
+2025-08-05 23:20:12,575 - ERROR - $BTC-USD: possibly delisted; no price data found  (5m 2024-06-11 23:20:02.373783 -> 2024-08-10 23:20:02.373783) (Yahoo error = "5m data not available for startTime=1718148002 and endTime=1723332002. The requested range must be within the last 60 days.")
+2025-08-05 23:20:12,575 - INFO - Collecting chunk: 2024-04-12 23:20:02.373783 to 2024-06-11 23:20:02.373783
+2025-08-05 23:20:13,863 - ERROR - $BTC-USD: possibly delisted; no price data found  (5m 2024-04-12 23:20:02.373783 -> 2024-06-11 23:20:02.373783) (Yahoo error = "5m data not available for startTime=1712964002 and endTime=1718148002. The requested range must be within the last 60 days.")
+2025-08-05 23:20:13,863 - INFO - Collecting chunk: 2024-02-12 23:20:02.373783 to 2024-04-12 23:20:02.373783
+2025-08-05 23:20:14,664 - ERROR - $BTC-USD: possibly delisted; no price data found  (5m 2024-02-12 23:20:02.373783 -> 2024-04-12 23:20:02.373783) (Yahoo error = "5m data not available for startTime=1707780002 and endTime=1712964002. The requested range must be within the last 60 days.")
+2025-08-05 23:20:14,671 - INFO - Collecting chunk: 2023-12-14 23:20:02.373783 to 2024-02-12 23:20:02.373783
+2025-08-05 23:20:15,662 - ERROR - $BTC-USD: possibly delisted; no price data found  (5m 2023-12-14 23:20:02.373783 -> 2024-02-12 23:20:02.373783) (Yahoo error = "5m data not available for startTime=1702596002 and endTime=1707780002. The requested range must be within the last 60 days.")
+2025-08-05 23:20:15,663 - INFO - Collecting chunk: 2023-10-15 23:20:02.373783 to 2023-12-14 23:20:02.373783
+2025-08-05 23:20:16,469 - ERROR - $BTC-USD: possibly delisted; no price data found  (5m 2023-10-15 23:20:02.373783 -> 2023-12-14 23:20:02.373783) (Yahoo error = "5m data not available for startTime=1697412002 and endTime=1702596002. The requested range must be within the last 60 days.")
+2025-08-05 23:20:16,472 - INFO - Collecting chunk: 2023-08-16 23:20:02.373783 to 2023-10-15 23:20:02.373783
+2025-08-05 23:20:17,564 - ERROR - $BTC-USD: possibly delisted; no price data found  (5m 2023-08-16 23:20:02.373783 -> 2023-10-15 23:20:02.373783) (Yahoo error = "5m data not available for startTime=1692228002 and endTime=1697412002. The requested range must be within the last 60 days.")
+2025-08-05 23:20:17,565 - INFO - Collecting chunk: 2023-06-17 23:20:02.373783 to 2023-08-16 23:20:02.373783
+2025-08-05 23:20:18,404 - ERROR - $BTC-USD: possibly delisted; no price data found  (5m 2023-06-17 23:20:02.373783 -> 2023-08-16 23:20:02.373783) (Yahoo error = "5m data not available for startTime=1687044002 and endTime=1692228002. The requested range must be within the last 60 days.")
+2025-08-05 23:20:18,404 - INFO - Collecting chunk: 2023-04-18 23:20:02.373783 to 2023-06-17 23:20:02.373783
+2025-08-05 23:20:19,567 - ERROR - $BTC-USD: possibly delisted; no price data found  (5m 2023-04-18 23:20:02.373783 -> 2023-06-17 23:20:02.373783) (Yahoo error = "5m data not available for startTime=1681860002 and endTime=1687044002. The requested range must be within the last 60 days.")
+2025-08-05 23:20:19,587 - INFO - Collecting chunk: 2023-02-17 23:20:02.373783 to 2023-04-18 23:20:02.373783
+2025-08-05 23:20:20,483 - ERROR - $BTC-USD: possibly delisted; no price data found  (5m 2023-02-17 23:20:02.373783 -> 2023-04-18 23:20:02.373783) (Yahoo error = "5m data not available for startTime=1676676002 and endTime=1681860002. The requested range must be within the last 60 days.")
+2025-08-05 23:20:20,483 - INFO - Collecting chunk: 2022-12-19 23:20:02.373783 to 2023-02-17 23:20:02.373783
+2025-08-05 23:20:21,457 - ERROR - $BTC-USD: possibly delisted; no price data found  (5m 2022-12-19 23:20:02.373783 -> 2023-02-17 23:20:02.373783) (Yahoo error = "5m data not available for startTime=1671492002 and endTime=1676676002. The requested range must be within the last 60 days.")
+2025-08-05 23:20:21,457 - INFO - Collecting chunk: 2022-10-20 23:20:02.373783 to 2022-12-19 23:20:02.373783
+2025-08-05 23:20:22,274 - ERROR - $BTC-USD: possibly delisted; no price data found  (5m 2022-10-20 23:20:02.373783 -> 2022-12-19 23:20:02.373783) (Yahoo error = "5m data not available for startTime=1666308002 and endTime=1671492002. The requested range must be within the last 60 days.")
+2025-08-05 23:20:22,274 - INFO - Collecting chunk: 2022-08-21 23:20:02.373783 to 2022-10-20 23:20:02.373783
+2025-08-05 23:20:24,095 - ERROR - $BTC-USD: possibly delisted; no price data found  (5m 2022-08-21 23:20:02.373783 -> 2022-10-20 23:20:02.373783) (Yahoo error = "5m data not available for startTime=1661124002 and endTime=1666308002. The requested range must be within the last 60 days.")
+2025-08-05 23:20:24,109 - INFO - Collecting chunk: 2022-08-06 23:20:02.373783 to 2022-08-21 23:20:02.373783
+2025-08-05 23:20:24,964 - ERROR - $BTC-USD: possibly delisted; no price data found  (5m 2022-08-06 23:20:02.373783 -> 2022-08-21 23:20:02.373783) (Yahoo error = "5m data not available for startTime=1659828002 and endTime=1661124002. The requested range must be within the last 60 days.")
+2025-08-05 23:20:25,000 - ERROR - Error collecting Yahoo Finance data: Index(['timestamp'], dtype='object')
+2025-08-05 23:20:25,073 - INFO - Trying alternative source: alpha_vantage
+2025-08-05 23:20:25,083 - ERROR - Alpha Vantage API key not found. Set ALPHA_VANTAGE_API_KEY environment variable.
+2025-08-05 23:20:25,122 - INFO - Trying alternative source: binance
+2025-08-05 23:20:25,145 - INFO - Collecting BTCUSDT data from Binance
+2025-08-05 23:20:25,163 - INFO - Requesting data from Binance: 2025-08-02 12:00:25.163000 to 2025-08-05 23:20:25.163000
+2025-08-05 23:20:25,708 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:25,721 - INFO - Requesting data from Binance: 2025-07-30 00:40:25.163000 to 2025-08-02 12:00:25.163000
+2025-08-05 23:20:26,022 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:26,023 - INFO - Requesting data from Binance: 2025-07-26 13:20:25.163000 to 2025-07-30 00:40:25.163000
+2025-08-05 23:20:26,355 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:26,385 - INFO - Requesting data from Binance: 2025-07-23 02:00:25.163000 to 2025-07-26 13:20:25.163000
+2025-08-05 23:20:26,697 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:26,697 - INFO - Requesting data from Binance: 2025-07-19 14:40:25.163000 to 2025-07-23 02:00:25.163000
+2025-08-05 23:20:26,981 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:26,981 - INFO - Requesting data from Binance: 2025-07-16 03:20:25.163000 to 2025-07-19 14:40:25.163000
+2025-08-05 23:20:27,304 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:27,304 - INFO - Requesting data from Binance: 2025-07-12 16:00:25.163000 to 2025-07-16 03:20:25.163000
+2025-08-05 23:20:27,609 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:27,610 - INFO - Requesting data from Binance: 2025-07-09 04:40:25.163000 to 2025-07-12 16:00:25.163000
+2025-08-05 23:20:27,891 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:27,891 - INFO - Requesting data from Binance: 2025-07-05 17:20:25.163000 to 2025-07-09 04:40:25.163000
+2025-08-05 23:20:28,182 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:28,184 - INFO - Requesting data from Binance: 2025-07-02 06:00:25.163000 to 2025-07-05 17:20:25.163000
+2025-08-05 23:20:28,488 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:28,489 - INFO - Requesting data from Binance: 2025-06-28 18:40:25.163000 to 2025-07-02 06:00:25.163000
+2025-08-05 23:20:28,783 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:28,783 - INFO - Requesting data from Binance: 2025-06-25 07:20:25.163000 to 2025-06-28 18:40:25.163000
+2025-08-05 23:20:29,105 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:29,111 - INFO - Requesting data from Binance: 2025-06-21 20:00:25.163000 to 2025-06-25 07:20:25.163000
+2025-08-05 23:20:29,447 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:29,447 - INFO - Requesting data from Binance: 2025-06-18 08:40:25.163000 to 2025-06-21 20:00:25.163000
+2025-08-05 23:20:29,733 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:29,734 - INFO - Requesting data from Binance: 2025-06-14 21:20:25.163000 to 2025-06-18 08:40:25.163000
+2025-08-05 23:20:30,033 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:30,034 - INFO - Requesting data from Binance: 2025-06-11 10:00:25.163000 to 2025-06-14 21:20:25.163000
+2025-08-05 23:20:30,294 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:30,295 - INFO - Requesting data from Binance: 2025-06-07 22:40:25.163000 to 2025-06-11 10:00:25.163000
+2025-08-05 23:20:30,611 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:30,612 - INFO - Requesting data from Binance: 2025-06-04 11:20:25.163000 to 2025-06-07 22:40:25.163000
+2025-08-05 23:20:30,976 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:30,976 - INFO - Requesting data from Binance: 2025-06-01 00:00:25.163000 to 2025-06-04 11:20:25.163000
+2025-08-05 23:20:31,337 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:31,337 - INFO - Requesting data from Binance: 2025-05-28 12:40:25.163000 to 2025-06-01 00:00:25.163000
+2025-08-05 23:20:31,643 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:31,643 - INFO - Requesting data from Binance: 2025-05-25 01:20:25.163000 to 2025-05-28 12:40:25.163000
+2025-08-05 23:20:31,952 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:31,953 - INFO - Requesting data from Binance: 2025-05-21 14:00:25.163000 to 2025-05-25 01:20:25.163000
+2025-08-05 23:20:32,230 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:32,230 - INFO - Requesting data from Binance: 2025-05-18 02:40:25.163000 to 2025-05-21 14:00:25.163000
+2025-08-05 23:20:32,489 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:32,490 - INFO - Requesting data from Binance: 2025-05-14 15:20:25.163000 to 2025-05-18 02:40:25.163000
+2025-08-05 23:20:32,744 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:32,744 - INFO - Requesting data from Binance: 2025-05-11 04:00:25.163000 to 2025-05-14 15:20:25.163000
+2025-08-05 23:20:32,997 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:32,998 - INFO - Requesting data from Binance: 2025-05-07 16:40:25.163000 to 2025-05-11 04:00:25.163000
+2025-08-05 23:20:33,270 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:33,270 - INFO - Requesting data from Binance: 2025-05-04 05:20:25.163000 to 2025-05-07 16:40:25.163000
+2025-08-05 23:20:33,676 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:33,677 - INFO - Requesting data from Binance: 2025-04-30 18:00:25.163000 to 2025-05-04 05:20:25.163000
+2025-08-05 23:20:33,947 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:33,947 - INFO - Requesting data from Binance: 2025-04-27 06:40:25.163000 to 2025-04-30 18:00:25.163000
+2025-08-05 23:20:34,598 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:34,605 - INFO - Requesting data from Binance: 2025-04-23 19:20:25.163000 to 2025-04-27 06:40:25.163000
+2025-08-05 23:20:34,873 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:34,873 - INFO - Requesting data from Binance: 2025-04-20 08:00:25.163000 to 2025-04-23 19:20:25.163000
+2025-08-05 23:20:35,156 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:35,157 - INFO - Requesting data from Binance: 2025-04-16 20:40:25.163000 to 2025-04-20 08:00:25.163000
+2025-08-05 23:20:35,454 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:35,455 - INFO - Requesting data from Binance: 2025-04-13 09:20:25.163000 to 2025-04-16 20:40:25.163000
+2025-08-05 23:20:35,793 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:35,807 - INFO - Requesting data from Binance: 2025-04-09 22:00:25.163000 to 2025-04-13 09:20:25.163000
+2025-08-05 23:20:36,065 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:36,065 - INFO - Requesting data from Binance: 2025-04-06 10:40:25.163000 to 2025-04-09 22:00:25.163000
+2025-08-05 23:20:36,358 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:36,359 - INFO - Requesting data from Binance: 2025-04-02 23:20:25.163000 to 2025-04-06 10:40:25.163000
+2025-08-05 23:20:36,744 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:36,744 - INFO - Requesting data from Binance: 2025-03-30 12:00:25.163000 to 2025-04-02 23:20:25.163000
+2025-08-05 23:20:37,056 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:37,057 - INFO - Requesting data from Binance: 2025-03-27 00:40:25.163000 to 2025-03-30 12:00:25.163000
+2025-08-05 23:20:37,337 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:37,338 - INFO - Requesting data from Binance: 2025-03-23 13:20:25.163000 to 2025-03-27 00:40:25.163000
+2025-08-05 23:20:37,598 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:37,598 - INFO - Requesting data from Binance: 2025-03-20 02:00:25.163000 to 2025-03-23 13:20:25.163000
+2025-08-05 23:20:37,910 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:37,914 - INFO - Requesting data from Binance: 2025-03-16 14:40:25.163000 to 2025-03-20 02:00:25.163000
+2025-08-05 23:20:38,993 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:38,993 - INFO - Requesting data from Binance: 2025-03-13 03:20:25.163000 to 2025-03-16 14:40:25.163000
+2025-08-05 23:20:40,774 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:40,774 - INFO - Requesting data from Binance: 2025-03-09 16:00:25.163000 to 2025-03-13 03:20:25.163000
+2025-08-05 23:20:41,647 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:41,647 - INFO - Requesting data from Binance: 2025-03-06 04:40:25.163000 to 2025-03-09 16:00:25.163000
+2025-08-05 23:20:43,754 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:43,754 - INFO - Requesting data from Binance: 2025-03-02 17:20:25.163000 to 2025-03-06 04:40:25.163000
+2025-08-05 23:20:44,897 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:44,897 - INFO - Requesting data from Binance: 2025-02-27 06:00:25.163000 to 2025-03-02 17:20:25.163000
+2025-08-05 23:20:45,875 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:45,877 - INFO - Requesting data from Binance: 2025-02-23 18:40:25.163000 to 2025-02-27 06:00:25.163000
+2025-08-05 23:20:46,282 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:46,283 - INFO - Requesting data from Binance: 2025-02-20 07:20:25.163000 to 2025-02-23 18:40:25.163000
+2025-08-05 23:20:46,833 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:46,838 - INFO - Requesting data from Binance: 2025-02-16 20:00:25.163000 to 2025-02-20 07:20:25.163000
+2025-08-05 23:20:47,466 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:47,466 - INFO - Requesting data from Binance: 2025-02-13 08:40:25.163000 to 2025-02-16 20:00:25.163000
+2025-08-05 23:20:47,764 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:47,764 - INFO - Requesting data from Binance: 2025-02-09 21:20:25.163000 to 2025-02-13 08:40:25.163000
+2025-08-05 23:20:48,276 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:48,286 - INFO - Requesting data from Binance: 2025-02-06 10:00:25.163000 to 2025-02-09 21:20:25.163000
+2025-08-05 23:20:48,608 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:48,609 - INFO - Requesting data from Binance: 2025-02-02 22:40:25.163000 to 2025-02-06 10:00:25.163000
+2025-08-05 23:20:49,197 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:49,197 - INFO - Requesting data from Binance: 2025-01-30 11:20:25.163000 to 2025-02-02 22:40:25.163000
+2025-08-05 23:20:49,524 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:49,524 - INFO - Requesting data from Binance: 2025-01-27 00:00:25.163000 to 2025-01-30 11:20:25.163000
+2025-08-05 23:20:49,844 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:49,844 - INFO - Requesting data from Binance: 2025-01-23 12:40:25.163000 to 2025-01-27 00:00:25.163000
+2025-08-05 23:20:50,110 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:50,111 - INFO - Requesting data from Binance: 2025-01-20 01:20:25.163000 to 2025-01-23 12:40:25.163000
+2025-08-05 23:20:50,408 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:50,408 - INFO - Requesting data from Binance: 2025-01-16 14:00:25.163000 to 2025-01-20 01:20:25.163000
+2025-08-05 23:20:50,772 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:50,773 - INFO - Requesting data from Binance: 2025-01-13 02:40:25.163000 to 2025-01-16 14:00:25.163000
+2025-08-05 23:20:51,063 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:51,063 - INFO - Requesting data from Binance: 2025-01-09 15:20:25.163000 to 2025-01-13 02:40:25.163000
+2025-08-05 23:20:51,524 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:51,525 - INFO - Requesting data from Binance: 2025-01-06 04:00:25.163000 to 2025-01-09 15:20:25.163000
+2025-08-05 23:20:51,925 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:51,926 - INFO - Requesting data from Binance: 2025-01-02 16:40:25.163000 to 2025-01-06 04:00:25.163000
+2025-08-05 23:20:52,223 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:52,224 - INFO - Requesting data from Binance: 2024-12-30 05:20:25.163000 to 2025-01-02 16:40:25.163000
+2025-08-05 23:20:52,598 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:52,598 - INFO - Requesting data from Binance: 2024-12-26 18:00:25.163000 to 2024-12-30 05:20:25.163000
+2025-08-05 23:20:52,923 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:52,923 - INFO - Requesting data from Binance: 2024-12-23 06:40:25.163000 to 2024-12-26 18:00:25.163000
+2025-08-05 23:20:53,221 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:53,221 - INFO - Requesting data from Binance: 2024-12-19 19:20:25.163000 to 2024-12-23 06:40:25.163000
+2025-08-05 23:20:53,644 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:53,647 - INFO - Requesting data from Binance: 2024-12-16 08:00:25.163000 to 2024-12-19 19:20:25.163000
+2025-08-05 23:20:53,921 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:53,921 - INFO - Requesting data from Binance: 2024-12-12 20:40:25.163000 to 2024-12-16 08:00:25.163000
+2025-08-05 23:20:54,366 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:54,366 - INFO - Requesting data from Binance: 2024-12-09 09:20:25.163000 to 2024-12-12 20:40:25.163000
+2025-08-05 23:20:54,621 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:54,621 - INFO - Requesting data from Binance: 2024-12-05 22:00:25.163000 to 2024-12-09 09:20:25.163000
+2025-08-05 23:20:54,904 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:54,904 - INFO - Requesting data from Binance: 2024-12-02 10:40:25.163000 to 2024-12-05 22:00:25.163000
+2025-08-05 23:20:55,193 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:55,193 - INFO - Requesting data from Binance: 2024-11-28 23:20:25.163000 to 2024-12-02 10:40:25.163000
+2025-08-05 23:20:55,465 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:55,466 - INFO - Requesting data from Binance: 2024-11-25 12:00:25.163000 to 2024-11-28 23:20:25.163000
+2025-08-05 23:20:55,726 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:55,727 - INFO - Requesting data from Binance: 2024-11-22 00:40:25.163000 to 2024-11-25 12:00:25.163000
+2025-08-05 23:20:56,007 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:56,007 - INFO - Requesting data from Binance: 2024-11-18 13:20:25.163000 to 2024-11-22 00:40:25.163000
+2025-08-05 23:20:56,310 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:56,310 - INFO - Requesting data from Binance: 2024-11-15 02:00:25.163000 to 2024-11-18 13:20:25.163000
+2025-08-05 23:20:56,630 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:56,630 - INFO - Requesting data from Binance: 2024-11-11 14:40:25.163000 to 2024-11-15 02:00:25.163000
+2025-08-05 23:20:57,044 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:57,044 - INFO - Requesting data from Binance: 2024-11-08 03:20:25.163000 to 2024-11-11 14:40:25.163000
+2025-08-05 23:20:57,321 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:57,321 - INFO - Requesting data from Binance: 2024-11-04 16:00:25.163000 to 2024-11-08 03:20:25.163000
+2025-08-05 23:20:57,710 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:57,711 - INFO - Requesting data from Binance: 2024-11-01 04:40:25.163000 to 2024-11-04 16:00:25.163000
+2025-08-05 23:20:58,014 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:58,014 - INFO - Requesting data from Binance: 2024-10-28 17:20:25.163000 to 2024-11-01 04:40:25.163000
+2025-08-05 23:20:58,333 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:58,333 - INFO - Requesting data from Binance: 2024-10-25 06:00:25.163000 to 2024-10-28 17:20:25.163000
+2025-08-05 23:20:58,598 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:58,599 - INFO - Requesting data from Binance: 2024-10-21 18:40:25.163000 to 2024-10-25 06:00:25.163000
+2025-08-05 23:20:58,883 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:58,883 - INFO - Requesting data from Binance: 2024-10-18 07:20:25.163000 to 2024-10-21 18:40:25.163000
+2025-08-05 23:20:59,194 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:59,194 - INFO - Requesting data from Binance: 2024-10-14 20:00:25.163000 to 2024-10-18 07:20:25.163000
+2025-08-05 23:20:59,497 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:59,497 - INFO - Requesting data from Binance: 2024-10-11 08:40:25.163000 to 2024-10-14 20:00:25.163000
+2025-08-05 23:20:59,798 - INFO - Collected 1000 records from Binance
+2025-08-05 23:20:59,798 - INFO - Requesting data from Binance: 2024-10-07 21:20:25.163000 to 2024-10-11 08:40:25.163000
+2025-08-05 23:21:00,091 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:00,091 - INFO - Requesting data from Binance: 2024-10-04 10:00:25.163000 to 2024-10-07 21:20:25.163000
+2025-08-05 23:21:00,371 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:00,371 - INFO - Requesting data from Binance: 2024-09-30 22:40:25.163000 to 2024-10-04 10:00:25.163000
+2025-08-05 23:21:00,754 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:00,757 - INFO - Requesting data from Binance: 2024-09-27 11:20:25.163000 to 2024-09-30 22:40:25.163000
+2025-08-05 23:21:01,063 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:01,064 - INFO - Requesting data from Binance: 2024-09-24 00:00:25.163000 to 2024-09-27 11:20:25.163000
+2025-08-05 23:21:01,354 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:01,354 - INFO - Requesting data from Binance: 2024-09-20 12:40:25.163000 to 2024-09-24 00:00:25.163000
+2025-08-05 23:21:01,933 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:01,933 - INFO - Requesting data from Binance: 2024-09-17 01:20:25.163000 to 2024-09-20 12:40:25.163000
+2025-08-05 23:21:02,221 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:02,221 - INFO - Requesting data from Binance: 2024-09-13 14:00:25.163000 to 2024-09-17 01:20:25.163000
+2025-08-05 23:21:02,648 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:02,648 - INFO - Requesting data from Binance: 2024-09-10 02:40:25.163000 to 2024-09-13 14:00:25.163000
+2025-08-05 23:21:02,964 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:02,964 - INFO - Requesting data from Binance: 2024-09-06 15:20:25.163000 to 2024-09-10 02:40:25.163000
+2025-08-05 23:21:03,510 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:03,513 - INFO - Requesting data from Binance: 2024-09-03 04:00:25.163000 to 2024-09-06 15:20:25.163000
+2025-08-05 23:21:03,820 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:03,820 - INFO - Requesting data from Binance: 2024-08-30 16:40:25.163000 to 2024-09-03 04:00:25.163000
+2025-08-05 23:21:04,112 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:04,113 - INFO - Requesting data from Binance: 2024-08-27 05:20:25.163000 to 2024-08-30 16:40:25.163000
+2025-08-05 23:21:04,481 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:04,483 - INFO - Requesting data from Binance: 2024-08-23 18:00:25.163000 to 2024-08-27 05:20:25.163000
+2025-08-05 23:21:05,142 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:05,143 - INFO - Requesting data from Binance: 2024-08-20 06:40:25.163000 to 2024-08-23 18:00:25.163000
+2025-08-05 23:21:05,513 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:05,515 - INFO - Requesting data from Binance: 2024-08-16 19:20:25.163000 to 2024-08-20 06:40:25.163000
+2025-08-05 23:21:06,078 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:06,078 - INFO - Requesting data from Binance: 2024-08-13 08:00:25.163000 to 2024-08-16 19:20:25.163000
+2025-08-05 23:21:06,513 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:06,514 - INFO - Requesting data from Binance: 2024-08-09 20:40:25.163000 to 2024-08-13 08:00:25.163000
+2025-08-05 23:21:06,797 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:06,797 - INFO - Requesting data from Binance: 2024-08-06 09:20:25.163000 to 2024-08-09 20:40:25.163000
+2025-08-05 23:21:07,127 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:07,157 - INFO - Requesting data from Binance: 2024-08-02 22:00:25.163000 to 2024-08-06 09:20:25.163000
+2025-08-05 23:21:07,481 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:07,481 - INFO - Requesting data from Binance: 2024-07-30 10:40:25.163000 to 2024-08-02 22:00:25.163000
+2025-08-05 23:21:07,774 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:07,774 - INFO - Requesting data from Binance: 2024-07-26 23:20:25.163000 to 2024-07-30 10:40:25.163000
+2025-08-05 23:21:08,023 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:08,023 - INFO - Requesting data from Binance: 2024-07-23 12:00:25.163000 to 2024-07-26 23:20:25.163000
+2025-08-05 23:21:08,283 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:08,284 - INFO - Requesting data from Binance: 2024-07-20 00:40:25.163000 to 2024-07-23 12:00:25.163000
+2025-08-05 23:21:08,585 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:08,586 - INFO - Requesting data from Binance: 2024-07-16 13:20:25.163000 to 2024-07-20 00:40:25.163000
+2025-08-05 23:21:08,882 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:08,883 - INFO - Requesting data from Binance: 2024-07-13 02:00:25.163000 to 2024-07-16 13:20:25.163000
+2025-08-05 23:21:09,147 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:09,147 - INFO - Requesting data from Binance: 2024-07-09 14:40:25.163000 to 2024-07-13 02:00:25.163000
+2025-08-05 23:21:09,526 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:09,528 - INFO - Requesting data from Binance: 2024-07-06 03:20:25.163000 to 2024-07-09 14:40:25.163000
+2025-08-05 23:21:09,822 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:09,823 - INFO - Requesting data from Binance: 2024-07-02 16:00:25.163000 to 2024-07-06 03:20:25.163000
+2025-08-05 23:21:10,094 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:10,095 - INFO - Requesting data from Binance: 2024-06-29 04:40:25.163000 to 2024-07-02 16:00:25.163000
+2025-08-05 23:21:10,357 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:10,357 - INFO - Requesting data from Binance: 2024-06-25 17:20:25.163000 to 2024-06-29 04:40:25.163000
+2025-08-05 23:21:10,633 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:10,633 - INFO - Requesting data from Binance: 2024-06-22 06:00:25.163000 to 2024-06-25 17:20:25.163000
+2025-08-05 23:21:10,935 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:10,935 - INFO - Requesting data from Binance: 2024-06-18 18:40:25.163000 to 2024-06-22 06:00:25.163000
+2025-08-05 23:21:11,196 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:11,196 - INFO - Requesting data from Binance: 2024-06-15 07:20:25.163000 to 2024-06-18 18:40:25.163000
+2025-08-05 23:21:11,494 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:11,494 - INFO - Requesting data from Binance: 2024-06-11 20:00:25.163000 to 2024-06-15 07:20:25.163000
+2025-08-05 23:21:11,768 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:11,768 - INFO - Requesting data from Binance: 2024-06-08 08:40:25.163000 to 2024-06-11 20:00:25.163000
+2025-08-05 23:21:12,540 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:12,540 - INFO - Requesting data from Binance: 2024-06-04 21:20:25.163000 to 2024-06-08 08:40:25.163000
+2025-08-05 23:21:12,842 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:12,842 - INFO - Requesting data from Binance: 2024-06-01 10:00:25.163000 to 2024-06-04 21:20:25.163000
+2025-08-05 23:21:13,639 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:13,640 - INFO - Requesting data from Binance: 2024-05-28 22:40:25.163000 to 2024-06-01 10:00:25.163000
+2025-08-05 23:21:14,066 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:14,083 - INFO - Requesting data from Binance: 2024-05-25 11:20:25.163000 to 2024-05-28 22:40:25.163000
+2025-08-05 23:21:14,595 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:14,598 - INFO - Requesting data from Binance: 2024-05-22 00:00:25.163000 to 2024-05-25 11:20:25.163000
+2025-08-05 23:21:14,896 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:14,897 - INFO - Requesting data from Binance: 2024-05-18 12:40:25.163000 to 2024-05-22 00:00:25.163000
+2025-08-05 23:21:15,294 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:15,294 - INFO - Requesting data from Binance: 2024-05-15 01:20:25.163000 to 2024-05-18 12:40:25.163000
+2025-08-05 23:21:15,606 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:15,606 - INFO - Requesting data from Binance: 2024-05-11 14:00:25.163000 to 2024-05-15 01:20:25.163000
+2025-08-05 23:21:16,012 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:16,012 - INFO - Requesting data from Binance: 2024-05-08 02:40:25.163000 to 2024-05-11 14:00:25.163000
+2025-08-05 23:21:16,297 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:16,297 - INFO - Requesting data from Binance: 2024-05-04 15:20:25.163000 to 2024-05-08 02:40:25.163000
+2025-08-05 23:21:16,623 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:16,623 - INFO - Requesting data from Binance: 2024-05-01 04:00:25.163000 to 2024-05-04 15:20:25.163000
+2025-08-05 23:21:16,943 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:16,960 - INFO - Requesting data from Binance: 2024-04-27 16:40:25.163000 to 2024-05-01 04:00:25.163000
+2025-08-05 23:21:17,213 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:17,213 - INFO - Requesting data from Binance: 2024-04-24 05:20:25.163000 to 2024-04-27 16:40:25.163000
+2025-08-05 23:21:17,539 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:17,540 - INFO - Requesting data from Binance: 2024-04-20 18:00:25.163000 to 2024-04-24 05:20:25.163000
+2025-08-05 23:21:18,002 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:18,003 - INFO - Requesting data from Binance: 2024-04-17 06:40:25.163000 to 2024-04-20 18:00:25.163000
+2025-08-05 23:21:18,346 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:18,347 - INFO - Requesting data from Binance: 2024-04-13 19:20:25.163000 to 2024-04-17 06:40:25.163000
+2025-08-05 23:21:18,665 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:18,665 - INFO - Requesting data from Binance: 2024-04-10 08:00:25.163000 to 2024-04-13 19:20:25.163000
+2025-08-05 23:21:18,972 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:18,973 - INFO - Requesting data from Binance: 2024-04-06 20:40:25.163000 to 2024-04-10 08:00:25.163000
+2025-08-05 23:21:19,266 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:19,267 - INFO - Requesting data from Binance: 2024-04-03 09:20:25.163000 to 2024-04-06 20:40:25.163000
+2025-08-05 23:21:19,597 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:19,597 - INFO - Requesting data from Binance: 2024-03-30 22:00:25.163000 to 2024-04-03 09:20:25.163000
+2025-08-05 23:21:19,893 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:19,893 - INFO - Requesting data from Binance: 2024-03-27 10:40:25.163000 to 2024-03-30 22:00:25.163000
+2025-08-05 23:21:20,381 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:20,381 - INFO - Requesting data from Binance: 2024-03-23 23:20:25.163000 to 2024-03-27 10:40:25.163000
+2025-08-05 23:21:21,086 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:21,086 - INFO - Requesting data from Binance: 2024-03-20 12:00:25.163000 to 2024-03-23 23:20:25.163000
+2025-08-05 23:21:21,397 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:21,398 - INFO - Requesting data from Binance: 2024-03-17 00:40:25.163000 to 2024-03-20 12:00:25.163000
+2025-08-05 23:21:21,670 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:21,670 - INFO - Requesting data from Binance: 2024-03-13 13:20:25.163000 to 2024-03-17 00:40:25.163000
+2025-08-05 23:21:22,002 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:22,004 - INFO - Requesting data from Binance: 2024-03-10 02:00:25.163000 to 2024-03-13 13:20:25.163000
+2025-08-05 23:21:22,323 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:22,325 - INFO - Requesting data from Binance: 2024-03-06 14:40:25.163000 to 2024-03-10 02:00:25.163000
+2025-08-05 23:21:22,653 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:22,654 - INFO - Requesting data from Binance: 2024-03-03 03:20:25.163000 to 2024-03-06 14:40:25.163000
+2025-08-05 23:21:22,967 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:22,968 - INFO - Requesting data from Binance: 2024-02-28 16:00:25.163000 to 2024-03-03 03:20:25.163000
+2025-08-05 23:21:23,246 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:23,247 - INFO - Requesting data from Binance: 2024-02-25 04:40:25.163000 to 2024-02-28 16:00:25.163000
+2025-08-05 23:21:23,550 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:23,581 - INFO - Requesting data from Binance: 2024-02-21 17:20:25.163000 to 2024-02-25 04:40:25.163000
+2025-08-05 23:21:23,920 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:23,920 - INFO - Requesting data from Binance: 2024-02-18 06:00:25.163000 to 2024-02-21 17:20:25.163000
+2025-08-05 23:21:24,218 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:24,218 - INFO - Requesting data from Binance: 2024-02-14 18:40:25.163000 to 2024-02-18 06:00:25.163000
+2025-08-05 23:21:24,495 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:24,495 - INFO - Requesting data from Binance: 2024-02-11 07:20:25.163000 to 2024-02-14 18:40:25.163000
+2025-08-05 23:21:24,808 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:24,808 - INFO - Requesting data from Binance: 2024-02-07 20:00:25.163000 to 2024-02-11 07:20:25.163000
+2025-08-05 23:21:25,369 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:25,371 - INFO - Requesting data from Binance: 2024-02-04 08:40:25.163000 to 2024-02-07 20:00:25.163000
+2025-08-05 23:21:25,633 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:25,633 - INFO - Requesting data from Binance: 2024-01-31 21:20:25.163000 to 2024-02-04 08:40:25.163000
+2025-08-05 23:21:26,133 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:26,138 - INFO - Requesting data from Binance: 2024-01-28 10:00:25.163000 to 2024-01-31 21:20:25.163000
+2025-08-05 23:21:26,436 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:26,436 - INFO - Requesting data from Binance: 2024-01-24 22:40:25.163000 to 2024-01-28 10:00:25.163000
+2025-08-05 23:21:26,721 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:26,721 - INFO - Requesting data from Binance: 2024-01-21 11:20:25.163000 to 2024-01-24 22:40:25.163000
+2025-08-05 23:21:26,994 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:26,994 - INFO - Requesting data from Binance: 2024-01-18 00:00:25.163000 to 2024-01-21 11:20:25.163000
+2025-08-05 23:21:27,286 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:27,288 - INFO - Requesting data from Binance: 2024-01-14 12:40:25.163000 to 2024-01-18 00:00:25.163000
+2025-08-05 23:21:27,563 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:27,563 - INFO - Requesting data from Binance: 2024-01-11 01:20:25.163000 to 2024-01-14 12:40:25.163000
+2025-08-05 23:21:27,884 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:27,884 - INFO - Requesting data from Binance: 2024-01-07 14:00:25.163000 to 2024-01-11 01:20:25.163000
+2025-08-05 23:21:28,188 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:28,189 - INFO - Requesting data from Binance: 2024-01-04 02:40:25.163000 to 2024-01-07 14:00:25.163000
+2025-08-05 23:21:28,478 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:28,479 - INFO - Requesting data from Binance: 2023-12-31 15:20:25.163000 to 2024-01-04 02:40:25.163000
+2025-08-05 23:21:28,793 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:28,794 - INFO - Requesting data from Binance: 2023-12-28 04:00:25.163000 to 2023-12-31 15:20:25.163000
+2025-08-05 23:21:29,084 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:29,084 - INFO - Requesting data from Binance: 2023-12-24 16:40:25.163000 to 2023-12-28 04:00:25.163000
+2025-08-05 23:21:29,347 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:29,348 - INFO - Requesting data from Binance: 2023-12-21 05:20:25.163000 to 2023-12-24 16:40:25.163000
+2025-08-05 23:21:29,614 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:29,614 - INFO - Requesting data from Binance: 2023-12-17 18:00:25.163000 to 2023-12-21 05:20:25.163000
+2025-08-05 23:21:29,924 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:29,924 - INFO - Requesting data from Binance: 2023-12-14 06:40:25.163000 to 2023-12-17 18:00:25.163000
+2025-08-05 23:21:30,218 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:30,218 - INFO - Requesting data from Binance: 2023-12-10 19:20:25.163000 to 2023-12-14 06:40:25.163000
+2025-08-05 23:21:30,505 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:30,506 - INFO - Requesting data from Binance: 2023-12-07 08:00:25.163000 to 2023-12-10 19:20:25.163000
+2025-08-05 23:21:30,767 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:30,768 - INFO - Requesting data from Binance: 2023-12-03 20:40:25.163000 to 2023-12-07 08:00:25.163000
+2025-08-05 23:21:31,065 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:31,087 - INFO - Requesting data from Binance: 2023-11-30 09:20:25.163000 to 2023-12-03 20:40:25.163000
+2025-08-05 23:21:31,381 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:31,381 - INFO - Requesting data from Binance: 2023-11-26 22:00:25.163000 to 2023-11-30 09:20:25.163000
+2025-08-05 23:21:31,667 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:31,670 - INFO - Requesting data from Binance: 2023-11-23 10:40:25.163000 to 2023-11-26 22:00:25.163000
+2025-08-05 23:21:31,941 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:31,942 - INFO - Requesting data from Binance: 2023-11-19 23:20:25.163000 to 2023-11-23 10:40:25.163000
+2025-08-05 23:21:32,196 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:32,197 - INFO - Requesting data from Binance: 2023-11-16 12:00:25.163000 to 2023-11-19 23:20:25.163000
+2025-08-05 23:21:32,465 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:32,466 - INFO - Requesting data from Binance: 2023-11-13 00:40:25.163000 to 2023-11-16 12:00:25.163000
+2025-08-05 23:21:32,748 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:32,748 - INFO - Requesting data from Binance: 2023-11-09 13:20:25.163000 to 2023-11-13 00:40:25.163000
+2025-08-05 23:21:33,004 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:33,004 - INFO - Requesting data from Binance: 2023-11-06 02:00:25.163000 to 2023-11-09 13:20:25.163000
+2025-08-05 23:21:33,304 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:33,307 - INFO - Requesting data from Binance: 2023-11-02 14:40:25.163000 to 2023-11-06 02:00:25.163000
+2025-08-05 23:21:33,576 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:33,577 - INFO - Requesting data from Binance: 2023-10-30 03:20:25.163000 to 2023-11-02 14:40:25.163000
+2025-08-05 23:21:33,848 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:33,848 - INFO - Requesting data from Binance: 2023-10-26 16:00:25.163000 to 2023-10-30 03:20:25.163000
+2025-08-05 23:21:34,121 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:34,121 - INFO - Requesting data from Binance: 2023-10-23 04:40:25.163000 to 2023-10-26 16:00:25.163000
+2025-08-05 23:21:34,434 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:34,435 - INFO - Requesting data from Binance: 2023-10-19 17:20:25.163000 to 2023-10-23 04:40:25.163000
+2025-08-05 23:21:34,723 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:34,724 - INFO - Requesting data from Binance: 2023-10-16 06:00:25.163000 to 2023-10-19 17:20:25.163000
+2025-08-05 23:21:35,007 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:35,007 - INFO - Requesting data from Binance: 2023-10-12 18:40:25.163000 to 2023-10-16 06:00:25.163000
+2025-08-05 23:21:35,272 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:35,272 - INFO - Requesting data from Binance: 2023-10-09 07:20:25.163000 to 2023-10-12 18:40:25.163000
+2025-08-05 23:21:35,595 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:35,597 - INFO - Requesting data from Binance: 2023-10-05 20:00:25.163000 to 2023-10-09 07:20:25.163000
+2025-08-05 23:21:35,901 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:35,901 - INFO - Requesting data from Binance: 2023-10-02 08:40:25.163000 to 2023-10-05 20:00:25.163000
+2025-08-05 23:21:36,231 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:36,233 - INFO - Requesting data from Binance: 2023-09-28 21:20:25.163000 to 2023-10-02 08:40:25.163000
+2025-08-05 23:21:36,531 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:36,531 - INFO - Requesting data from Binance: 2023-09-25 10:00:25.163000 to 2023-09-28 21:20:25.163000
+2025-08-05 23:21:36,882 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:36,883 - INFO - Requesting data from Binance: 2023-09-21 22:40:25.163000 to 2023-09-25 10:00:25.163000
+2025-08-05 23:21:37,167 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:37,168 - INFO - Requesting data from Binance: 2023-09-18 11:20:25.163000 to 2023-09-21 22:40:25.163000
+2025-08-05 23:21:37,447 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:37,447 - INFO - Requesting data from Binance: 2023-09-15 00:00:25.163000 to 2023-09-18 11:20:25.163000
+2025-08-05 23:21:37,704 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:37,704 - INFO - Requesting data from Binance: 2023-09-11 12:40:25.163000 to 2023-09-15 00:00:25.163000
+2025-08-05 23:21:38,127 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:38,127 - INFO - Requesting data from Binance: 2023-09-08 01:20:25.163000 to 2023-09-11 12:40:25.163000
+2025-08-05 23:21:38,443 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:38,445 - INFO - Requesting data from Binance: 2023-09-04 14:00:25.163000 to 2023-09-08 01:20:25.163000
+2025-08-05 23:21:38,731 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:38,732 - INFO - Requesting data from Binance: 2023-09-01 02:40:25.163000 to 2023-09-04 14:00:25.163000
+2025-08-05 23:21:38,983 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:38,983 - INFO - Requesting data from Binance: 2023-08-28 15:20:25.163000 to 2023-09-01 02:40:25.163000
+2025-08-05 23:21:39,312 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:39,312 - INFO - Requesting data from Binance: 2023-08-25 04:00:25.163000 to 2023-08-28 15:20:25.163000
+2025-08-05 23:21:39,576 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:39,576 - INFO - Requesting data from Binance: 2023-08-21 16:40:25.163000 to 2023-08-25 04:00:25.163000
+2025-08-05 23:21:39,883 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:39,883 - INFO - Requesting data from Binance: 2023-08-18 05:20:25.163000 to 2023-08-21 16:40:25.163000
+2025-08-05 23:21:40,147 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:40,147 - INFO - Requesting data from Binance: 2023-08-14 18:00:25.163000 to 2023-08-18 05:20:25.163000
+2025-08-05 23:21:40,573 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:40,574 - INFO - Requesting data from Binance: 2023-08-11 06:40:25.163000 to 2023-08-14 18:00:25.163000
+2025-08-05 23:21:40,883 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:40,883 - INFO - Requesting data from Binance: 2023-08-07 19:20:25.163000 to 2023-08-11 06:40:25.163000
+2025-08-05 23:21:41,190 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:41,191 - INFO - Requesting data from Binance: 2023-08-04 08:00:25.163000 to 2023-08-07 19:20:25.163000
+2025-08-05 23:21:41,483 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:41,483 - INFO - Requesting data from Binance: 2023-07-31 20:40:25.163000 to 2023-08-04 08:00:25.163000
+2025-08-05 23:21:41,889 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:41,889 - INFO - Requesting data from Binance: 2023-07-28 09:20:25.163000 to 2023-07-31 20:40:25.163000
+2025-08-05 23:21:42,391 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:42,391 - INFO - Requesting data from Binance: 2023-07-24 22:00:25.163000 to 2023-07-28 09:20:25.163000
+2025-08-05 23:21:42,633 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:42,633 - INFO - Requesting data from Binance: 2023-07-21 10:40:25.163000 to 2023-07-24 22:00:25.163000
+2025-08-05 23:21:42,907 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:42,907 - INFO - Requesting data from Binance: 2023-07-17 23:20:25.163000 to 2023-07-21 10:40:25.163000
+2025-08-05 23:21:43,197 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:43,201 - INFO - Requesting data from Binance: 2023-07-14 12:00:25.163000 to 2023-07-17 23:20:25.163000
+2025-08-05 23:21:43,484 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:43,485 - INFO - Requesting data from Binance: 2023-07-11 00:40:25.163000 to 2023-07-14 12:00:25.163000
+2025-08-05 23:21:43,758 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:43,759 - INFO - Requesting data from Binance: 2023-07-07 13:20:25.163000 to 2023-07-11 00:40:25.163000
+2025-08-05 23:21:44,071 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:44,071 - INFO - Requesting data from Binance: 2023-07-04 02:00:25.163000 to 2023-07-07 13:20:25.163000
+2025-08-05 23:21:44,377 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:44,378 - INFO - Requesting data from Binance: 2023-06-30 14:40:25.163000 to 2023-07-04 02:00:25.163000
+2025-08-05 23:21:45,166 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:45,167 - INFO - Requesting data from Binance: 2023-06-27 03:20:25.163000 to 2023-06-30 14:40:25.163000
+2025-08-05 23:21:45,507 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:45,507 - INFO - Requesting data from Binance: 2023-06-23 16:00:25.163000 to 2023-06-27 03:20:25.163000
+2025-08-05 23:21:46,305 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:46,306 - INFO - Requesting data from Binance: 2023-06-20 04:40:25.163000 to 2023-06-23 16:00:25.163000
+2025-08-05 23:21:46,633 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:46,633 - INFO - Requesting data from Binance: 2023-06-16 17:20:25.163000 to 2023-06-20 04:40:25.163000
+2025-08-05 23:21:46,937 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:46,938 - INFO - Requesting data from Binance: 2023-06-13 06:00:25.163000 to 2023-06-16 17:20:25.163000
+2025-08-05 23:21:47,298 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:47,304 - INFO - Requesting data from Binance: 2023-06-09 18:40:25.163000 to 2023-06-13 06:00:25.163000
+2025-08-05 23:21:47,707 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:47,707 - INFO - Requesting data from Binance: 2023-06-06 07:20:25.163000 to 2023-06-09 18:40:25.163000
+2025-08-05 23:21:48,448 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:48,448 - INFO - Requesting data from Binance: 2023-06-02 20:00:25.163000 to 2023-06-06 07:20:25.163000
+2025-08-05 23:21:50,504 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:50,504 - INFO - Requesting data from Binance: 2023-05-30 08:40:25.163000 to 2023-06-02 20:00:25.163000
+2025-08-05 23:21:51,558 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:51,558 - INFO - Requesting data from Binance: 2023-05-26 21:20:25.163000 to 2023-05-30 08:40:25.163000
+2025-08-05 23:21:52,182 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:52,182 - INFO - Requesting data from Binance: 2023-05-23 10:00:25.163000 to 2023-05-26 21:20:25.163000
+2025-08-05 23:21:52,697 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:52,704 - INFO - Requesting data from Binance: 2023-05-19 22:40:25.163000 to 2023-05-23 10:00:25.163000
+2025-08-05 23:21:53,107 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:53,113 - INFO - Requesting data from Binance: 2023-05-16 11:20:25.163000 to 2023-05-19 22:40:25.163000
+2025-08-05 23:21:53,397 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:53,397 - INFO - Requesting data from Binance: 2023-05-13 00:00:25.163000 to 2023-05-16 11:20:25.163000
+2025-08-05 23:21:53,939 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:53,943 - INFO - Requesting data from Binance: 2023-05-09 12:40:25.163000 to 2023-05-13 00:00:25.163000
+2025-08-05 23:21:54,264 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:54,265 - INFO - Requesting data from Binance: 2023-05-06 01:20:25.163000 to 2023-05-09 12:40:25.163000
+2025-08-05 23:21:54,848 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:54,849 - INFO - Requesting data from Binance: 2023-05-02 14:00:25.163000 to 2023-05-06 01:20:25.163000
+2025-08-05 23:21:55,303 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:55,304 - INFO - Requesting data from Binance: 2023-04-29 02:40:25.163000 to 2023-05-02 14:00:25.163000
+2025-08-05 23:21:56,075 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:56,076 - INFO - Requesting data from Binance: 2023-04-25 15:20:25.163000 to 2023-04-29 02:40:25.163000
+2025-08-05 23:21:56,354 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:56,355 - INFO - Requesting data from Binance: 2023-04-22 04:00:25.163000 to 2023-04-25 15:20:25.163000
+2025-08-05 23:21:56,637 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:56,638 - INFO - Requesting data from Binance: 2023-04-18 16:40:25.163000 to 2023-04-22 04:00:25.163000
+2025-08-05 23:21:56,960 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:56,960 - INFO - Requesting data from Binance: 2023-04-15 05:20:25.163000 to 2023-04-18 16:40:25.163000
+2025-08-05 23:21:57,260 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:57,261 - INFO - Requesting data from Binance: 2023-04-11 18:00:25.163000 to 2023-04-15 05:20:25.163000
+2025-08-05 23:21:57,660 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:57,661 - INFO - Requesting data from Binance: 2023-04-08 06:40:25.163000 to 2023-04-11 18:00:25.163000
+2025-08-05 23:21:58,261 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:58,262 - INFO - Requesting data from Binance: 2023-04-04 19:20:25.163000 to 2023-04-08 06:40:25.163000
+2025-08-05 23:21:58,635 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:58,636 - INFO - Requesting data from Binance: 2023-04-01 08:00:25.163000 to 2023-04-04 19:20:25.163000
+2025-08-05 23:21:58,935 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:58,937 - INFO - Requesting data from Binance: 2023-03-28 20:40:25.163000 to 2023-04-01 08:00:25.163000
+2025-08-05 23:21:59,564 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:59,565 - INFO - Requesting data from Binance: 2023-03-25 09:20:25.163000 to 2023-03-28 20:40:25.163000
+2025-08-05 23:21:59,853 - INFO - Collected 1000 records from Binance
+2025-08-05 23:21:59,853 - INFO - Requesting data from Binance: 2023-03-21 22:00:25.163000 to 2023-03-25 09:20:25.163000
+2025-08-05 23:22:00,278 - INFO - Collected 984 records from Binance
+2025-08-05 23:22:00,279 - INFO - Requesting data from Binance: 2023-03-18 10:40:25.163000 to 2023-03-21 22:00:25.163000
+2025-08-05 23:22:00,545 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:00,546 - INFO - Requesting data from Binance: 2023-03-14 23:20:25.163000 to 2023-03-18 10:40:25.163000
+2025-08-05 23:22:00,921 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:00,922 - INFO - Requesting data from Binance: 2023-03-11 12:00:25.163000 to 2023-03-14 23:20:25.163000
+2025-08-05 23:22:01,239 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:01,240 - INFO - Requesting data from Binance: 2023-03-08 00:40:25.163000 to 2023-03-11 12:00:25.163000
+2025-08-05 23:22:01,760 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:01,761 - INFO - Requesting data from Binance: 2023-03-04 13:20:25.163000 to 2023-03-08 00:40:25.163000
+2025-08-05 23:22:02,062 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:02,062 - INFO - Requesting data from Binance: 2023-03-01 02:00:25.163000 to 2023-03-04 13:20:25.163000
+2025-08-05 23:22:02,378 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:02,378 - INFO - Requesting data from Binance: 2023-02-25 14:40:25.163000 to 2023-03-01 02:00:25.163000
+2025-08-05 23:22:02,725 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:02,725 - INFO - Requesting data from Binance: 2023-02-22 03:20:25.163000 to 2023-02-25 14:40:25.163000
+2025-08-05 23:22:03,844 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:03,845 - INFO - Requesting data from Binance: 2023-02-18 16:00:25.163000 to 2023-02-22 03:20:25.163000
+2025-08-05 23:22:05,344 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:05,348 - INFO - Requesting data from Binance: 2023-02-15 04:40:25.163000 to 2023-02-18 16:00:25.163000
+2025-08-05 23:22:05,652 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:05,652 - INFO - Requesting data from Binance: 2023-02-11 17:20:25.163000 to 2023-02-15 04:40:25.163000
+2025-08-05 23:22:05,937 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:05,938 - INFO - Requesting data from Binance: 2023-02-08 06:00:25.163000 to 2023-02-11 17:20:25.163000
+2025-08-05 23:22:06,247 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:06,247 - INFO - Requesting data from Binance: 2023-02-04 18:40:25.163000 to 2023-02-08 06:00:25.163000
+2025-08-05 23:22:06,552 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:06,553 - INFO - Requesting data from Binance: 2023-02-01 07:20:25.163000 to 2023-02-04 18:40:25.163000
+2025-08-05 23:22:06,848 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:06,849 - INFO - Requesting data from Binance: 2023-01-28 20:00:25.163000 to 2023-02-01 07:20:25.163000
+2025-08-05 23:22:07,122 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:07,123 - INFO - Requesting data from Binance: 2023-01-25 08:40:25.163000 to 2023-01-28 20:00:25.163000
+2025-08-05 23:22:07,420 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:07,420 - INFO - Requesting data from Binance: 2023-01-21 21:20:25.163000 to 2023-01-25 08:40:25.163000
+2025-08-05 23:22:07,698 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:07,699 - INFO - Requesting data from Binance: 2023-01-18 10:00:25.163000 to 2023-01-21 21:20:25.163000
+2025-08-05 23:22:08,051 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:08,051 - INFO - Requesting data from Binance: 2023-01-14 22:40:25.163000 to 2023-01-18 10:00:25.163000
+2025-08-05 23:22:08,444 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:08,444 - INFO - Requesting data from Binance: 2023-01-11 11:20:25.163000 to 2023-01-14 22:40:25.163000
+2025-08-05 23:22:08,753 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:08,753 - INFO - Requesting data from Binance: 2023-01-08 00:00:25.163000 to 2023-01-11 11:20:25.163000
+2025-08-05 23:22:09,094 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:09,095 - INFO - Requesting data from Binance: 2023-01-04 12:40:25.163000 to 2023-01-08 00:00:25.163000
+2025-08-05 23:22:09,374 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:09,375 - INFO - Requesting data from Binance: 2023-01-01 01:20:25.163000 to 2023-01-04 12:40:25.163000
+2025-08-05 23:22:09,670 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:09,670 - INFO - Requesting data from Binance: 2022-12-28 14:00:25.163000 to 2023-01-01 01:20:25.163000
+2025-08-05 23:22:10,262 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:10,263 - INFO - Requesting data from Binance: 2022-12-25 02:40:25.163000 to 2022-12-28 14:00:25.163000
+2025-08-05 23:22:10,775 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:10,776 - INFO - Requesting data from Binance: 2022-12-21 15:20:25.163000 to 2022-12-25 02:40:25.163000
+2025-08-05 23:22:11,109 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:11,110 - INFO - Requesting data from Binance: 2022-12-18 04:00:25.163000 to 2022-12-21 15:20:25.163000
+2025-08-05 23:22:11,419 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:11,421 - INFO - Requesting data from Binance: 2022-12-14 16:40:25.163000 to 2022-12-18 04:00:25.163000
+2025-08-05 23:22:11,695 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:11,696 - INFO - Requesting data from Binance: 2022-12-11 05:20:25.163000 to 2022-12-14 16:40:25.163000
+2025-08-05 23:22:11,980 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:11,980 - INFO - Requesting data from Binance: 2022-12-07 18:00:25.163000 to 2022-12-11 05:20:25.163000
+2025-08-05 23:22:12,270 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:12,271 - INFO - Requesting data from Binance: 2022-12-04 06:40:25.163000 to 2022-12-07 18:00:25.163000
+2025-08-05 23:22:12,581 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:12,581 - INFO - Requesting data from Binance: 2022-11-30 19:20:25.163000 to 2022-12-04 06:40:25.163000
+2025-08-05 23:22:12,964 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:12,964 - INFO - Requesting data from Binance: 2022-11-27 08:00:25.163000 to 2022-11-30 19:20:25.163000
+2025-08-05 23:22:13,338 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:13,339 - INFO - Requesting data from Binance: 2022-11-23 20:40:25.163000 to 2022-11-27 08:00:25.163000
+2025-08-05 23:22:13,657 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:13,658 - INFO - Requesting data from Binance: 2022-11-20 09:20:25.163000 to 2022-11-23 20:40:25.163000
+2025-08-05 23:22:14,060 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:14,061 - INFO - Requesting data from Binance: 2022-11-16 22:00:25.163000 to 2022-11-20 09:20:25.163000
+2025-08-05 23:22:14,363 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:14,364 - INFO - Requesting data from Binance: 2022-11-13 10:40:25.163000 to 2022-11-16 22:00:25.163000
+2025-08-05 23:22:14,780 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:14,781 - INFO - Requesting data from Binance: 2022-11-09 23:20:25.163000 to 2022-11-13 10:40:25.163000
+2025-08-05 23:22:15,128 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:15,128 - INFO - Requesting data from Binance: 2022-11-06 12:00:25.163000 to 2022-11-09 23:20:25.163000
+2025-08-05 23:22:15,448 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:15,450 - INFO - Requesting data from Binance: 2022-11-03 00:40:25.163000 to 2022-11-06 12:00:25.163000
+2025-08-05 23:22:15,790 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:15,790 - INFO - Requesting data from Binance: 2022-10-30 13:20:25.163000 to 2022-11-03 00:40:25.163000
+2025-08-05 23:22:16,213 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:16,213 - INFO - Requesting data from Binance: 2022-10-27 02:00:25.163000 to 2022-10-30 13:20:25.163000
+2025-08-05 23:22:16,636 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:16,636 - INFO - Requesting data from Binance: 2022-10-23 14:40:25.163000 to 2022-10-27 02:00:25.163000
+2025-08-05 23:22:17,023 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:17,024 - INFO - Requesting data from Binance: 2022-10-20 03:20:25.163000 to 2022-10-23 14:40:25.163000
+2025-08-05 23:22:17,319 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:17,320 - INFO - Requesting data from Binance: 2022-10-16 16:00:25.163000 to 2022-10-20 03:20:25.163000
+2025-08-05 23:22:17,735 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:17,736 - INFO - Requesting data from Binance: 2022-10-13 04:40:25.163000 to 2022-10-16 16:00:25.163000
+2025-08-05 23:22:18,161 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:18,162 - INFO - Requesting data from Binance: 2022-10-09 17:20:25.163000 to 2022-10-13 04:40:25.163000
+2025-08-05 23:22:18,487 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:18,487 - INFO - Requesting data from Binance: 2022-10-06 06:00:25.163000 to 2022-10-09 17:20:25.163000
+2025-08-05 23:22:18,767 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:18,769 - INFO - Requesting data from Binance: 2022-10-02 18:40:25.163000 to 2022-10-06 06:00:25.163000
+2025-08-05 23:22:19,082 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:19,082 - INFO - Requesting data from Binance: 2022-09-29 07:20:25.163000 to 2022-10-02 18:40:25.163000
+2025-08-05 23:22:19,380 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:19,381 - INFO - Requesting data from Binance: 2022-09-25 20:00:25.163000 to 2022-09-29 07:20:25.163000
+2025-08-05 23:22:19,811 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:19,812 - INFO - Requesting data from Binance: 2022-09-22 08:40:25.163000 to 2022-09-25 20:00:25.163000
+2025-08-05 23:22:20,092 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:20,092 - INFO - Requesting data from Binance: 2022-09-18 21:20:25.163000 to 2022-09-22 08:40:25.163000
+2025-08-05 23:22:20,508 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:20,508 - INFO - Requesting data from Binance: 2022-09-15 10:00:25.163000 to 2022-09-18 21:20:25.163000
+2025-08-05 23:22:20,834 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:20,834 - INFO - Requesting data from Binance: 2022-09-11 22:40:25.163000 to 2022-09-15 10:00:25.163000
+2025-08-05 23:22:21,126 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:21,127 - INFO - Requesting data from Binance: 2022-09-08 11:20:25.163000 to 2022-09-11 22:40:25.163000
+2025-08-05 23:22:21,582 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:21,582 - INFO - Requesting data from Binance: 2022-09-05 00:00:25.163000 to 2022-09-08 11:20:25.163000
+2025-08-05 23:22:22,134 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:22,135 - INFO - Requesting data from Binance: 2022-09-01 12:40:25.163000 to 2022-09-05 00:00:25.163000
+2025-08-05 23:22:22,494 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:22,496 - INFO - Requesting data from Binance: 2022-08-29 01:20:25.163000 to 2022-09-01 12:40:25.163000
+2025-08-05 23:22:22,952 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:22,953 - INFO - Requesting data from Binance: 2022-08-25 14:00:25.163000 to 2022-08-29 01:20:25.163000
+2025-08-05 23:22:23,252 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:23,253 - INFO - Requesting data from Binance: 2022-08-22 02:40:25.163000 to 2022-08-25 14:00:25.163000
+2025-08-05 23:22:24,007 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:24,007 - INFO - Requesting data from Binance: 2022-08-18 15:20:25.163000 to 2022-08-22 02:40:25.163000
+2025-08-05 23:22:24,415 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:24,416 - INFO - Requesting data from Binance: 2022-08-15 04:00:25.163000 to 2022-08-18 15:20:25.163000
+2025-08-05 23:22:24,733 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:24,734 - INFO - Requesting data from Binance: 2022-08-11 16:40:25.163000 to 2022-08-15 04:00:25.163000
+2025-08-05 23:22:25,058 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:25,059 - INFO - Requesting data from Binance: 2022-08-08 05:20:25.163000 to 2022-08-11 16:40:25.163000
+2025-08-05 23:22:25,601 - INFO - Collected 1000 records from Binance
+2025-08-05 23:22:28,964 - INFO - Collected 314984 candles from Binance
+2025-08-05 23:22:28,965 - INFO - Data saved to: data\raw\binance\BTCUSD_5min_raw.csv
+2025-08-05 23:22:29,016 - INFO - Date range: 2022-08-07 23:55:00 to 2025-08-05 17:50:00
+2025-08-05 23:22:29,350 - INFO - Data validation completed: 314984 valid records
+2025-08-05 23:22:32,607 - INFO - Raw data saved to: data\raw\BTCUSD_5min_raw_20250805_232229.csv
+2025-08-05 23:22:35,718 - INFO - Latest data saved to: data\raw\BTCUSD_5min_latest.csv
+2025-08-05 23:22:35,718 - INFO - Historical data collection completed: 314984 records
+2025-08-05 23:22:35,718 - INFO - ============================================================
+2025-08-05 23:22:35,719 - INFO - DATA DOWNLOAD SUCCESSFUL!
+2025-08-05 23:22:35,719 - INFO - ============================================================
+2025-08-05 23:22:35,720 - INFO - Records downloaded: 314984
+2025-08-05 23:22:35,722 - INFO - Date range: 2022-08-07 23:55:00 to 2025-08-05 17:50:00
+2025-08-05 23:22:35,732 - INFO - Price range: $15593.58 - $122908.93
+2025-08-05 23:22:35,735 - INFO - Average volume: 290
+2025-08-05 23:22:35,735 - INFO - 
+Sample data (first 5 rows):
+2025-08-05 23:22:35,755 - INFO -             timestamp      open      high       low     close     volume   source
+0 2022-08-07 23:55:00  23173.37  23185.54  23162.86  23174.39  234.10039  binance
+1 2022-08-08 00:00:00  23174.39  23192.40  23154.25  23189.46  441.91756  binance
+2 2022-08-08 00:05:00  23188.08  23230.19  23180.95  23213.76  499.66533  binance
+3 2022-08-08 00:10:00  23213.76  23291.17  23213.74  23286.75  629.18302  binance
+4 2022-08-08 00:15:00  23286.75  23350.00  23275.72  23315.37  761.79154  binance
+2025-08-05 23:22:35,756 - INFO - 
+Data saved to: data/raw/BTCUSD_5min_latest.csv
+2025-08-05 23:22:35,757 - INFO - You can now proceed with data preprocessing and model training!

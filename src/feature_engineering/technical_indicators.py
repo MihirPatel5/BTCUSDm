@@ -5,9 +5,23 @@ Generates technical analysis features for BTCUSD prediction model
 
 import pandas as pd
 import numpy as np
-import talib
 from pathlib import Path
 import logging
+
+# Try to import TA-Lib, use fallback if not available
+try:
+    import talib
+    TALIB_AVAILABLE = True
+except ImportError:
+    TALIB_AVAILABLE = False
+    print("Warning: TA-Lib not available. Using fallback implementations.")
+
+# Try to import alternative TA library
+try:
+    import ta
+    TA_AVAILABLE = True
+except ImportError:
+    TA_AVAILABLE = False
 
 class TechnicalIndicators:
     """Generator for technical analysis indicators"""
@@ -77,7 +91,11 @@ class TechnicalIndicators:
         
         for period in sma_periods:
             try:
-                data[f'sma_{period}'] = talib.SMA(close_prices, timeperiod=period)
+                if TALIB_AVAILABLE:
+                    data[f'sma_{period}'] = talib.SMA(close_prices, timeperiod=period)
+                else:
+                    # Fallback: pandas rolling mean
+                    data[f'sma_{period}'] = data['close'].rolling(window=period).mean()
             except Exception as e:
                 self.logger.warning(f"Error calculating SMA {period}: {e}")
         
@@ -86,7 +104,11 @@ class TechnicalIndicators:
         
         for period in ema_periods:
             try:
-                data[f'ema_{period}'] = talib.EMA(close_prices, timeperiod=period)
+                if TALIB_AVAILABLE:
+                    data[f'ema_{period}'] = talib.EMA(close_prices, timeperiod=period)
+                else:
+                    # Fallback: pandas exponential weighted mean
+                    data[f'ema_{period}'] = data['close'].ewm(span=period).mean()
             except Exception as e:
                 self.logger.warning(f"Error calculating EMA {period}: {e}")
         
